@@ -1,0 +1,8 @@
+Placeholder for profile image.
+
+To add your photo:
+1. Replace this file with your actual photo
+2. Name it "profile.jpg"
+3. Make sure it's a square image (recommended 400x400 pixels or larger)
+
+The image will automatically appear in your portfolio sidebar.
