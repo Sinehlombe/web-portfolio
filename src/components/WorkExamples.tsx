@@ -1,4 +1,3 @@
-import React from 'react';
 
 const WorkExamples = () => {
   return (
@@ -54,16 +53,16 @@ const WorkExamples = () => {
               
               <div className="grid grid-cols-3 gap-3">
                 <div className="text-center p-3 bg-[#161b22] rounded-md border border-[#30363d]">
-                  <div className="text-brand-green font-bold text-lg">2TB</div>
-                  <div className="text-xs text-gray-400">Data Migrated</div>
+                  <div className="text-brand-green font-bold text-lg">Data Migrated</div>
+                  
                 </div>
                 <div className="text-center p-3 bg-[#161b22] rounded-md border border-[#30363d]">
-                  <div className="text-brand-green font-bold text-lg">40%</div>
-                  <div className="text-xs text-gray-400">Cost Reduction</div>
+                  <div className="text-brand-green font-bold text-lg">Cost Reduction</div>
+                 
                 </div>
                 <div className="text-center p-3 bg-[#161b22] rounded-md border border-[#30363d]">
-                  <div className="text-brand-green font-bold text-lg">60%</div>
-                  <div className="text-xs text-gray-400">Performance Boost</div>
+                  <div className="text-brand-green font-bold text-lg">Clear Job Metrics </div>
+                  
                 </div>
               </div>
             </div>
@@ -166,16 +165,16 @@ const WorkExamples = () => {
               
               <div className="grid grid-cols-3 gap-3">
                 <div className="text-center p-3 bg-[#161b22] rounded-md border border-[#30363d]">
-                  <div className="text-brand-green font-bold text-lg">75%</div>
-                  <div className="text-xs text-gray-400">User Engagement Increase</div>
+                  <div className="text-brand-green font-bold text-lg">User engagement Increased</div>
+                  
                 </div>
                 <div className="text-center p-3 bg-[#161b22] rounded-md border border-[#30363d]">
-                  <div className="text-brand-green font-bold text-lg">60%</div>
-                  <div className="text-xs text-gray-400">Manual Workload Reduction</div>
+                  <div className="text-brand-green font-bold text-lg">Manual Workload Reduction</div>
+                
                 </div>
                 <div className="text-center p-3 bg-[#161b22] rounded-md border border-[#30363d]">
-                  <div className="text-brand-green font-bold text-lg">85%</div>
-                  <div className="text-xs text-gray-400">Recommendation Accuracy</div>
+                  <div className="text-brand-green font-bold text-lg">Recommendation Accuracy</div>
+                  
                 </div>
               </div>
             </div>
@@ -220,27 +219,6 @@ const WorkExamples = () => {
               <div className="text-center p-4 bg-[#161b22] rounded-md border border-[#30363d]">
                 <div className="text-brand-green font-bold text-xl mb-1">3</div>
                 <div className="text-sm text-gray-400">Academic Challenge Areas Identified</div>
-              </div>
-            </div>
-          </div>
-
-          {/* Performance Summary */}
-          <div className="pt-6 border-t border-[#30363d]">
-            <h3 className="text-2xl font-semibold text-white mb-4 flex items-center">
-              <span className="text-brand-green mr-2">#</span> Overall Impact Summary
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="text-center p-4 bg-[#161b22] rounded-md border border-[#30363d] hover-lift animated-border">
-                <div className="text-2xl font-bold text-brand-green mb-1">90%</div>
-                <div className="text-sm text-gray-400">Average Performance Improvement</div>
-              </div>
-              <div className="text-center p-4 bg-[#161b22] rounded-md border border-[#30363d] hover-lift animated-border">
-                <div className="text-2xl font-bold text-brand-green mb-1">3+</div>
-                <div className="text-sm text-gray-400">Years Industry Experience</div>
-              </div>
-              <div className="text-center p-4 bg-[#161b22] rounded-md border border-[#30363d] hover-lift animated-border">
-                <div className="text-2xl font-bold text-brand-green mb-1">15+</div>
-                <div className="text-sm text-gray-400">Projects Delivered</div>
               </div>
             </div>
           </div>

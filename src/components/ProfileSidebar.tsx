@@ -20,7 +20,7 @@ export default function ProfileSidebar() {
   }, [imageUrl]);
 
   return (
-    <div className="w-full md:w-1/4 md:-mt-8 mb-8 md:mb-0">
+    <div className="w-full md:w-1/4 mb-8 md:mb-0">
       <div className="relative group fade-in stagger-1">
         <div className="w-full aspect-square rounded-full border border-[#30363d] bg-[#0d1117] overflow-hidden shadow-lg md:w-full md:h-auto max-w-[296px] mx-auto md:mx-0 hover-lift">
           

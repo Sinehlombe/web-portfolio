@@ -19,7 +19,7 @@ export default function Navbar() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#010409] text-white py-3 px-4 md:px-6 flex items-center justify-between border-b border-[#30363d] shadow-lg fade-in stagger-1">
+    <nav className="sticky top-0 z-50 bg-[#010409] text-white h-16 px-6 flex items-center justify-between border-b border-[#30363d] shadow-lg fade-in stagger-1">
       <div className="flex items-center space-x-4">
         <button 
           className="md:hidden text-gray-300 hover:text-white"
@@ -30,16 +30,16 @@ export default function Navbar() {
         </button>
         <Link 
           to="" 
-          className="text-white hover:text-brand-green transition-all flex items-center gap-2 hover-lift"
+          className="text-white hover:text-brand-green transition-all flex items-center gap-3 hover-lift"
         >
-          <span className="font-semibold text-sm leading-none text-brand-green">
+          <span className="font-semibold text-lg leading-none text-brand-green">
             {portfolioData.personalInfo.name}
           </span>
         </Link>
       </div>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex items-center space-x-6 text-sm font-semibold text-white">
+      <div className="hidden md:flex items-center space-x-8 text-base font-semibold text-white">
         {NAV_ITEMS.map((item) => (
           <NavLink 
             key={item.name} 

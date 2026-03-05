@@ -77,17 +77,30 @@ export const portfolioData = {
   },
   repositories: [
     {
-      name: "Medical-Agent",
-      description: "An intelligent AI-powered agent designed for medical diagnostics and assistance. Leveraging Python and advanced NLP models to provide accurate health insights and support decision-making.",
-      language: "Python",
-      stars: 3,
-      forks: 1,
-      updated: "Jan 11, 2026",
-      url: "https://github.com/Sinehlombe/Medical-Agent",
-      topics: ["ai", "python", "medical", "nlp"],
-      technologies: ["Python", "Transformers", "NLP", "Flask", "Docker"],
-      achievements: ["95% accuracy in diagnostic predictions", "Real-time symptom analysis", "Medical literature integration"],
-      metrics: { commits: 127, contributors: 3, issues: 8 }
+      name: "fullstack-auth-app",
+      description: "Full-stack authentication app built with C#.",
+      language: "C#",
+      stars: 0,
+      forks: 0,
+      updated: "Mar 03, 2026",
+      url: "https://github.com/Sinehlombe/fullstack-auth-app",
+      topics: [],
+      technologies: ["C#"],
+      achievements: [],
+      metrics: { commits: 0, contributors: 1, issues: 0 }
+    },
+    {
+      name: "TaskManagementAPI",
+      description: "C# backend API for task management with authentication and CRUD operations.",
+      language: "C#",
+      stars: 0,
+      forks: 0,
+      updated: "Feb 17, 2026",
+      url: "https://github.com/Sinehlombe/TaskManagementAPI",
+      topics: ["csharp", "api", "backend"],
+      technologies: ["C#", "ASP.NET Core"],
+      achievements: [],
+      metrics: { commits: 0, contributors: 1, issues: 0 }
     },
     {
       name: "poker-hand-evaluator-final",
@@ -103,6 +116,32 @@ export const portfolioData = {
       metrics: { commits: 89, contributors: 2, issues: 3 }
     },
     {
+      name: "Medical-Agent",
+      description: "An intelligent AI-powered agent designed for medical diagnostics and assistance. Leveraging Python and advanced NLP models to provide accurate health insights and support decision-making.",
+      language: "Python",
+      stars: 3,
+      forks: 1,
+      updated: "Jan 11, 2026",
+      url: "https://github.com/Sinehlombe/Medical-Agent",
+      topics: ["ai", "python", "medical", "nlp"],
+      technologies: ["Python", "Transformers", "NLP", "Flask", "Docker"],
+      achievements: ["95% accuracy in diagnostic predictions", "Real-time symptom analysis", "Medical literature integration"],
+      metrics: { commits: 127, contributors: 3, issues: 8 }
+    },
+    {
+      name: "Digitalgallery",
+      description: "Python implementation of a digital gallery.",
+      language: "Python",
+      stars: 0,
+      forks: 0,
+      updated: "Nov 19, 2025",
+      url: "https://github.com/Sinehlombe/Digitalgallery",
+      topics: [],
+      technologies: ["Python"],
+      achievements: [],
+      metrics: { commits: 0, contributors: 1, issues: 0 }
+    },
+    {
       name: "WebTask-API",
       description: "A scalable C# backend API for task management systems. Implements secure authentication, task CRUD operations, and optimized database queries for high-performance task tracking.",
       language: "C#",
@@ -114,20 +153,6 @@ export const portfolioData = {
       technologies: ["C#", "ASP.NET Core", "Entity Framework", "JWT", "SQL Server"],
       achievements: ["Handles 1000+ concurrent users", "99.9% uptime", "50ms average response time"],
       metrics: { commits: 156, contributors: 4, issues: 12 }
-    },
-    
-    {
-      name: "event-app",
-      description: "A dynamic event management web application. Features user registration, event scheduling, and interactive dashboards. Built with modern web technologies for a seamless user experience.",
-      language: "JavaScript",
-      stars: 1,
-      forks: 0,
-      updated: "Mar 04, 2025",
-      url: "https://github.com/Sinehlombe/event-app",
-      topics: ["web-app", "javascript", "events"],
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Stripe"],
-      achievements: ["500+ events managed", "1000+ user registrations", "Real-time notifications"],
-      metrics: { commits: 178, contributors: 3, issues: 7 }
     },
     {
       name: "User-and-Tasks",
@@ -143,49 +168,18 @@ export const portfolioData = {
       metrics: { commits: 95, contributors: 2, issues: 4 }
     },
     {
-      name: "TaskManagementAPI",
-      description: "C# backend API for task management with authentication and CRUD operations.",
-      language: "C#",
-      stars: 0,
+      name: "event-app",
+      description: "A dynamic event management web application. Features user registration, event scheduling, and interactive dashboards. Built with modern web technologies for a seamless user experience.",
+      language: "JavaScript",
+      stars: 1,
       forks: 0,
-      updated: "Feb 17, 2026",
-      url: "https://github.com/Sinehlombe/TaskManagementAPI",
-      topics: ["csharp", "api", "backend"],
-      technologies: ["C#", "ASP.NET Core"],
-      achievements: [],
-      metrics: { commits: 0, contributors: 1, issues: 0 }
+      updated: "Mar 04, 2025",
+      url: "https://github.com/Sinehlombe/event-app",
+      topics: ["web-app", "javascript", "events"],
+      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Stripe"],
+      achievements: ["500+ events managed", "1000+ user registrations", "Real-time notifications"],
+      metrics: { commits: 178, contributors: 3, issues: 7 }
     },
-    
-    {
-      name: "Digitalgallery",
-      description: "Python implementation of a digital gallery.",
-      language: "Python",
-      stars: 0,
-      forks: 0,
-      updated: "Nov 19, 2025",
-      url: "https://github.com/Sinehlombe/Digitalgallery",
-      topics: [],
-      technologies: ["Python"],
-      achievements: [],
-      metrics: { commits: 0, contributors: 1, issues: 0 }
-    },
-    {
-      name: "fullstack-auth-app",
-      description: "Full-stack authentication app built with C#.",
-      language: "C#",
-      stars: 0,
-      forks: 0,
-      updated: "Mar 03, 2026",
-      url: "https://github.com/Sinehlombe/fullstack-auth-app",
-      topics: [],
-      technologies: ["C#"],
-      achievements: [],
-      metrics: { commits: 0, contributors: 1, issues: 0 }
-    },
-    
-    
-    
-    
   ],
   experience: [
     {
